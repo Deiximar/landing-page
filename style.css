@@ -1,4 +1,5 @@
-* {
+html,
+body {
   margin: 0px;
   font-family: Roboto, sans-serif;
   font: 18px;
@@ -18,6 +19,7 @@ h1 {
   font-size: 48px;
   font-weight: 900;
   color: #f9faf8;
+  margin: 0px;
 }
 
 nav,
@@ -39,6 +41,7 @@ a {
   font-size: 18px;
   text-decoration: none;
   list-style-type: none;
+  color: #e5e7eb;
 }
 
 .first-section {
@@ -60,9 +63,45 @@ a {
 
 .hero div {
   width: min-content;
+  color: #e5e7eb;
 }
 
 .hero-subtext {
   font-size: 18px;
   width: 450px;
+  color: #e5e7eb;
+}
+
+.second-section {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  color: #1f2937;
+  align-items: center;
+  margin: auto;
+}
+
+.sub-title {
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.subtext-img {
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+  gap: 50px;
+}
+
+.subtext-img li {
+  width: 150px;
+  list-style-type: none;
+  font-size: 17px;
+  text-align: center;
+  color: #59626f;
+}
+
+.extra-img {
+  border: 2px solid #3882f6;
+  border-radius: 10px;
 }
