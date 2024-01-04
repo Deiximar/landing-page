@@ -3,7 +3,6 @@ body {
   margin: 0px;
   font-family: Roboto, sans-serif;
   font: 18px;
-  color: #e5e7eb;
 }
 
 button {
@@ -104,4 +103,28 @@ a {
 .extra-img {
   border: 2px solid #3882f6;
   border-radius: 10px;
+}
+
+.third-section {
+  background-color: #e5e7eb;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 200;
+  width: 800px;
+  color: #1f2937;
+  opacity: 70%;
+}
+
+.quote-autor {
+  width: 800px;
+  text-align: end;
+  font-size: 24px;
+  margin: 0px;
 }
