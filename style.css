@@ -153,3 +153,11 @@ a {
   border: 1px solid #f9faf8;
   align-items: center;
 }
+
+footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  padding: 25px;
+  text-align: center;
+  font-size: small;
+}
