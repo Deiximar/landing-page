@@ -145,15 +145,15 @@ a {
 
 .fourth-section {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   background-color: #3b82f6;
   width: 800px;
   margin: 80px auto;
-  border-radius: 5px;
+  border-radius: 10px;
   color: #e5e7eb;
   gap: 120px;
-  padding: 30px;
+  padding: 60px 100px;
 }
 
 .sign-up h2,
@@ -162,14 +162,15 @@ a {
 }
 
 .fourth-section button {
-  border: 1px solid #f9faf8;
+  border: 2px solid #f9faf8;
   align-items: center;
 }
 
 footer {
   background-color: #1f2937;
   color: #e5e7eb;
-  padding: 25px;
+  padding: 43px;
   text-align: center;
-  font-size: small;
+  font-size: 18px;
+  font-weight: 900;
 }
