@@ -119,7 +119,7 @@ a {
 
 .third-section {
   background-color: #e5e7eb;
-  padding: 60px;
+  padding: 115px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -129,9 +129,10 @@ a {
   font-size: 36px;
   font-style: italic;
   font-weight: 200;
-  width: 800px;
+  width: 760px;
   color: #1f2937;
   opacity: 70%;
+  margin: 0px;
 }
 
 .quote-autor {
@@ -139,6 +140,7 @@ a {
   text-align: end;
   font-size: 24px;
   margin: 0px;
+  font-weight: 600;
 }
 
 .fourth-section {
